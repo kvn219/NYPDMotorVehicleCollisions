@@ -1,0 +1,73 @@
+html, body {
+    position: realtive;
+}
+
+.chart {
+    margin-top: 2em;
+    position: relative;
+}
+
+.chart svg {
+    width: 90%;
+    position: relative;
+}
+
+.chart text {
+    font-size: 0.9rem;
+}
+
+.chart path, .chart line, .chart text {
+    vector-effect: non-scaling-stroke;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #999;
+    shape-rendering: crispEdges;
+}
+
+.data rect {
+    stroke: red;
+    fill: rgba(255, 0, 0, 0.5);
+}
+
+.active {
+    stroke: black;
+    stroke-width: 1.5px;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: large;
+}
+
+/*img {*/
+    /*width: 100%;*/
+    /*!*height: 40%;*!*/
+
+/*}*/
+
+/*img.center {*/
+/*display: block;*/
+/*margin-left: auto;*/
+/*margin-right: auto;*/
+/*padding: 2%;*/
+/*}*/
+
+div {
+    padding: 0.5%;
+}
+
+div .center {
+    margin: 0 auto;
+    width: 80em;
+}
+
+p.center {
+    text-align: center;
+}
+
+#year{
+    width: 350px;
+    height: auto;
+}
